@@ -5,13 +5,15 @@ import time
 from discord_webhook import DiscordWebhook
 
 ascii_art = r"""
-  __  __   _    _   _   _______ _____     _______    ____     ____    _         _____ 
- |  \/  | | |  | | | | |__   __|_   _|   |__   __|  / __ \   / __ \  | |       / ____|
- | \  / | | |  | | | |    | |    | |        | |    | |  | | | |  | | | |      | (___  
- | |\/| | | |  | | | |    | |    | |        | |    | |  | | | |  | | | |       \___ \ 
- | |  | | | |__| | | |____| |   _| |_       | |    | |__| | | |__| | | |____   ____) |
- |_|  |_|  \____/  |______|_|  |_____|      |_|     \____/   \____/  |______| |_____/ 
-                                                                                      
+ _______  _______  _       _________         
+(  ____ \(  ____ \( (    /|\__   __/|\     /|
+| (    \/| (    \/|  \  ( |   ) (   ( \   / )
+| (__    | (__    |   \ | |   | |    \ (_) / 
+|  __)   |  __)   | (\ \) |   | |     ) _ (  
+| (      | (      | | \   |   | |    / ( ) \ 
+| )      | (____/\| )  \  |___) (___( /   \ )
+|/       (_______/|/    )_)\_______/|/     \|
+                                                                                                                                   
                                                                                                                      
 """[1:]
 
@@ -49,7 +51,7 @@ ascii_art_webhook_tools = r"""
 """[1:]
 
 def systeme():
-  Anime.Fade(text=Center.Center(ascii_art), color=Colors.red_to_yellow, mode=Colorate.Vertical, enter=True)
+  Anime.Fade(text=Center.Center(ascii_art), color=Colors.red_to_yellow, mode=Colorate.Horizontal, enter=True)
 
 def init():
     System.Clear()
